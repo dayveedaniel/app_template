@@ -1,5 +1,5 @@
 # new_project_template
 
-Template for new Flutter projects
+Personal template for new Flutter projects
 
 
