@@ -1,0 +1,72 @@
+name: new_project_template
+description: Template for new project
+
+publish_to: "none"
+
+version: 1.0.0+3
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  #state management
+  bloc:
+  flutter_bloc:
+
+  #firebase
+  firebase_core:
+  firebase_crashlytics:
+  firebase_analytics:
+
+  #utils
+  upgrader:
+
+  #localization
+  easy_localization:
+
+  #storage
+  flutter_secure_storage:
+
+  # DI.
+  get_it:
+  injectable:
+
+  #widget utils
+  flutter_svg:
+  dropdown_button2:
+
+  # Network modules
+  dio:
+  web_socket_channel:
+  connectivity_plus: ^6.0.5
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^1.0.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  #code gen
+  build_runner:
+  injectable_generator:
+
+  flutter_lints: ^3.0.1
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/
+    - assets/icons/
+    - assets/images/
+    - assets/lang/
+  fonts:
+    - family: Urbanist
+      fonts:
+        - asset: assets/fonts/Urbanist-Regular.ttf
+        - asset: assets/fonts/Urbanist-SemiBold.ttf

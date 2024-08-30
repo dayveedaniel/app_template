@@ -1,0 +1,13 @@
+{
+  "lang": "English",
+  "appVersion": "App version {}",
+  "landing": {
+    "info": "Your ultimate investment tool",
+    "aboutApp": "About the app",
+    "create": "Create account",
+    "login": "Log in"
+  },
+  "locale": {
+    "en": "English"
+  }
+}
